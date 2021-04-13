@@ -1,0 +1,2 @@
+rootProject.name='ClassroomAttendance'
+include ':app'

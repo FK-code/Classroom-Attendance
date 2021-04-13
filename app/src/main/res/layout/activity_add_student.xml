@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddStudent">
+
+
+    <TextView
+        android:id="@+id/passedclassnamedatabase"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="serif"
+        android:textAllCaps="true"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <EditText
+        android:id="@+id/stname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:autoSizeMaxTextSize="2dp"
+        android:autoSizeTextType="uniform"
+
+        android:ems="10"
+        android:hint="Student Name"
+        android:inputType="text"
+        android:padding="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAllCaps="true"
+        android:textColorHint="#2327E7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stid" />
+
+    <EditText
+        android:id="@+id/stid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:autoSizeMaxTextSize="2dp"
+        android:autoSizeTextType="uniform"
+
+        android:ems="10"
+        android:hint="User id"
+
+        android:inputType="text"
+        android:padding="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAllCaps="true"
+        android:textColorHint="#2327E7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passedclassnamedatabase" />
+
+    <Button
+        android:id="@+id/addStudentdatabase"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/stname"
+        android:layout_alignBottom="@+id/stname"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:padding="20dp"
+        android:text="Add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stname" />
+
+    <Button
+        android:id="@+id/deleteStudentdatabase"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:padding="20dp"
+        android:text="Delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addStudentdatabase" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

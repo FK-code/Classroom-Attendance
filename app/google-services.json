@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "591609576438",
+    "firebase_url": "https://classroomattendance-4455e.firebaseio.com",
+    "project_id": "classroomattendance-4455e",
+    "storage_bucket": "classroomattendance-4455e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591609576438:android:645cd1b3e72edb687ba5d7",
+        "android_client_info": {
+          "package_name": "com.example.classroomattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591609576438-horv7e57241te2u0rsn2mrbvkllpcm3q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.classroomattendance",
+            "certificate_hash": "15a1218e98fe7d65be81660fc7218a552ff5159c"
+          }
+        },
+        {
+          "client_id": "591609576438-779b70tcap0m9i7t1m6n2b36kkavbgu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMUPakqi4rXaVsiqU68SfjN-EiTq-F4IQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591609576438-779b70tcap0m9i7t1m6n2b36kkavbgu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
