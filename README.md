@@ -1,6 +1,6 @@
 # Classroom-Attendance
 
-This is a andriod app that one can use to record attendance in.
+This is a android app that one can use to record attendance in.
 
 This app has backend on Google Firebase Cloud Service.
 Authentication and data storage is done on Firebase cloud.
